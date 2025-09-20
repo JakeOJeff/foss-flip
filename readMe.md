@@ -1,3 +1,3 @@
 # FOSS FLIP
 
-## A Community built project for FOSS 2025. Start of by forking this repo and contributing!
+## A Community built 'Meme Generator/Builder' project for FOSS 2025. Start of by forking this repo and contributing!
