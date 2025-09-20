@@ -15,12 +15,12 @@ We welcome all contributions — big or small.
     Open your terminal and run:
 
     ```bash
-    git clone https://github.com/<your-username>/meme-generator.git
+    git clone https://github.com/JakeOJeff/foss-flip.git
     ```
 
 3. Open the project
     ```bash
-    cd meme-generator
+    cd foss-flip
     ```
 
 4. Run locally
@@ -35,9 +35,7 @@ Just open **index.html** in your browser and start using the app. After contribu
     - Open script.js
     - Find the templates object
     - Add a new entry:
-    - ```javascript 
-        funnycat: "https://i.imgflip.com/abc123.jpg", 
-    ```
+    - ` funnycat: "https://i.imgflip.com/abc123.jpg", `
 
 
 - Improve styling in style.css
@@ -86,9 +84,9 @@ Just open **index.html** in your browser and start using the app. After contribu
 
 ## Tips for Beginners
 
-    - Don’t worry about making mistakes — that’s how you learn!
-    - If you get stuck, check the Issues tab or ask a question in the PR.
-    - Even small changes (like fixing typos) are valuable.
+- Don’t worry about making mistakes — that’s how you learn!
+- If you get stuck, check the Issues tab or ask a question in the PR.
+- Even small changes (like fixing typos) are valuable.
 
 ## Thank You
 
