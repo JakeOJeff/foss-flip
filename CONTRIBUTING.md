@@ -15,7 +15,7 @@ We welcome all contributions — big or small.
     Open your terminal and run:
 
     ```bash
-        git clone https://github.com/<your-username>/meme-generator.git
+    git clone https://github.com/<your-username>/meme-generator.git
     ```
 
 3. Open the project
@@ -33,67 +33,64 @@ Just open **index.html** in your browser and start using the app. After contribu
 - Add new meme templates
 
     - Open script.js
-
     - Find the templates object
-
     - Add a new entry:
-
-    - ```javascript funnycat: "https://i.imgflip.com/abc123.jpg", ```
+    - ```javascript 
+        funnycat: "https://i.imgflip.com/abc123.jpg", 
+    ```
 
 
 - Improve styling in style.css
 
     - Change fonts, colors, or layout.
-
     - Make the app look cooler!
 
 - Add new features
 
     - A Download Meme button
-
     - Let users change font size
-
     - Add dark mode
-
     - Make text draggable
 
 - Fix bugs or typos anywhere.
 
 ## How to Submit Changes
 
-Create a new branch:
+1. Create a new branch:
 
-git checkout -b add-new-meme
-
-
-Make your changes and commit:
-
-git add .
-git commit -m "Added new meme template"
+    ```bash
+    git checkout -b add-new-meme
+    ```
 
 
-Push your branch:
+2. Make your changes and commit:
 
-git push origin add-new-meme
+    ```bash
+    git add .
+    git commit -m "Added new meme template"
+    ```
 
 
-Open a Pull Request (PR) on GitHub.
+3. Push your branch:
 
-Go to your fork on GitHub
+    ```bash
+    git push origin add-new-meme
+    ```
 
-Click New Pull Request
 
-Describe your changes
+4. Open a Pull Request (PR) on GitHub.
 
-✅ Tips for Beginners
+    - Go to your fork on GitHub
+    - Click New Pull Request
+    - Describe your changes
 
-Don’t worry about making mistakes — that’s how you learn!
+## Tips for Beginners
 
-If you get stuck, check the Issues tab or ask a question in the PR.
+    - Don’t worry about making mistakes — that’s how you learn!
+    - If you get stuck, check the Issues tab or ask a question in the PR.
+    - Even small changes (like fixing typos) are valuable.
 
-Even small changes (like fixing typos) are valuable.
-
-🙌 Thank You
+## Thank You
 
 Every contribution matters.
 By contributing, you’re helping beginners practice GitHub and open source.
