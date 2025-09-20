@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Open Source Meme Gen </title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Source Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Open Source Meme Generator</h1>
+  <h1>Open Source Meme Generator</h1>
 
-    <div>
-        <label for="template">Choose a Template</label>
-        <select id="template">
-            <option value="doge">Doge</option>
-            <option value="drake">Drake Hotline Bling</option>
-            <option value="distracted">Distracted Boyfriend</option>
-        </select>
+  <div class="controls">
+    <label for="template">Choose a meme template:</label>
+    <select id="template">
+      <option value="doge">Doge</option>
+      <option value="drake">Drake Hotline Bling</option>
+      <option value="distracted">Distracted Boyfriend</option>
+    </select>
 
-        <label for="topText">Top Text:</label>
-        <input type="text" id="topText" placeholder="Enter top text">
+    <label for="topText">Top Text:</label>
+    <input type="text" id="topText" placeholder="Enter top text">
 
-        <label for="bottomText">Bottom Text:</label>
-        <input type="text" id="bottomText" placeholder="Enter bottom text">
+    <label for="bottomText">Bottom Text:</label>
+    <input type="text" id="bottomText" placeholder="Enter bottom text">
 
-        <button id="generateBtn">Generate Meme</button>
+    <button id="generateBtn">Generate Meme</button>
+  </div>
 
-    </div>
+  <div class="meme">
+    <canvas id="memeCanvas" width="500" height="500"></canvas>
+  </div>
 
-    <div class="meme">
-        <canvas id="memeCanvas" width="500" height="500"></canvas>
-    </div>
+  <script src="script.js"></script>
 </body>
-
 </html>
